@@ -19,4 +19,10 @@ $ $EDITOR ./mysql.env
 - MYSQL_PORT: mysql port
 - MYSQL_DATABASE_NAME: mysql database
 - MYSQL_QUERY: mysql query
-- SLEEP_INTERVAL: query interval time (s) 
+- SLEEP_INTERVAL: query interval time (s)
+
+## Release
+
+```
+$ make release-tag
+```
