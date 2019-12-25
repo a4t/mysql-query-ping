@@ -1,0 +1,10 @@
+version: "3"
+services:
+  mysql-ping-query:
+    image: imega/mysql-client
+    volumes:
+      - ./main.sh:/app/main.sh
+    working_dir: /app
+    env_file:
+      - ./mysql.env
+    command: ./main.sh
